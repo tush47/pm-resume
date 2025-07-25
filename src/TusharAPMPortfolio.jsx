@@ -12,7 +12,7 @@ export default function TusharAPMPortfolio() {
       <header className="cute-header" style={{position:'relative'}}>
         <div className="header-title-row">
           <h1 className="cute-title">Tushar Sohal</h1>
-          <a href="https://docs.google.com/document/d/1eY8qXpLWyYYnjcpzTjlL_sxADyQB_CK3IDlauUBINP4/edit?usp=sharing" target="_blank" className="resume-side-link" download>
+          <a href="https://docs.google.com/document/d/1NhamOGv9aQihDb6Wne1eZOjh_jPNA5pvzrUPE510nWM/edit?usp=sharing" target="_blank" className="resume-side-link" download>
             Resume
           </a>
         </div>
