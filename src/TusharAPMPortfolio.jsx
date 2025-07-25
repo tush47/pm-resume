@@ -68,12 +68,12 @@ export default function TusharAPMPortfolio() {
       <section className="cute-card">
         <h2 className="cute-section-title">📝 Product Requirement Docs (PRDs)</h2>
         <div className="cute-links">
-          <a href="/Group_Account _Prd.pdf" className="cute-link-card" download>
+          <a href="https://drive.google.com/file/d/1D_cRs8uXRUmhpVUaL0BW1O2FhGq4yOuY/view" className="cute-link-card">
             <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4c3.svg" alt="PRD 2" target="_blank" className="cute-link-icon" />
             <div className="cute-link-title">Group/Blanket Account System for Shared Living Purchases</div>
             <div className="cute-link-desc">Product Requirement Doc (DOCX) for a system enabling group or blanket accounts to manage shared purchases in co-living or roommate scenarios.</div>
           </a>
-          <a href="/PRD_Marketplace_Podcast.pdf" className="cute-link-card" target="_blank" download>
+          <a href="https://drive.google.com/file/d/1x6bgcagKo6Hgjsx53O3oAOLKys9mWyvs/view" className="cute-link-card" target="_blank">
             <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f399.svg" alt="Podcast Marketplace" className="cute-link-icon" />
             <div className="cute-link-title">Marketplace Platform for Podcast Editors & Creators</div>
             <div className="cute-link-desc">Product Requirement Doc (DOCX) for a platform connecting podcast editors and creators.</div>
