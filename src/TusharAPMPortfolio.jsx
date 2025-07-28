@@ -1,13 +1,9 @@
 import React from "react";
 import "./CutePortfolio.css";
 
-export default function TusharAPMPortfolio() {
+export default function TusharDataAnalystPortfolio() {
   return (
     <main className="cute-bg">
-      {/* Banner Image */}
-      {/* <div className="banner-image-container">
-        <img src="/banner.jpeg" alt="Banner" className="banner-image" />
-      </div> */}
       {/* Header with Name and Resume */}
       <header className="cute-header" style={{position:'relative'}}>
         <div className="header-title-row">
@@ -16,15 +12,15 @@ export default function TusharAPMPortfolio() {
             Resume
           </a>
         </div>
-        <p className="cute-tagline">Aspiring PM passionate about building delightful products.</p>
+        <p className="cute-tagline">Aspiring Data Analyst passionate about transforming data into actionable insights.</p>
       </header>
 
       {/* About Section */}
       <section className="cute-card about-me-card">
         <h2 className="cute-section-title">👋 About Me</h2>
         <p>
-          Final-year B.Tech student at <span className="highlight">NIT Kurukshetra</span>, blending <span className="highlight">engineering</span>, <span className="highlight">design</span>, and <span className="highlight">strategy</span> to craft meaningful digital experiences.<br/>
-          Passionate about <span className="highlight">user-first</span> and <span className="highlight">data-driven</span> product development.
+          Final-year B.Tech student at <span className="highlight">NIT Kurukshetra</span>, blending <span className="highlight">statistics</span>, <span className="highlight">programming</span>, and <span className="highlight">business acumen</span> to extract meaningful insights from complex datasets.<br/>
+          Passionate about <span className="highlight">data-driven</span> decision making and <span className="highlight">predictive analytics</span>.
         </p>
       </section>
 
@@ -38,12 +34,12 @@ export default function TusharAPMPortfolio() {
             <div className="cute-link-desc" style={{whiteSpace:'normal'}}>
               <div><span className="highlight">Jan 2025 – Jul 2025 · Bengaluru, On-site</span></div>
               <ul style={{margin:'0.7em 0 0 1em',padding:'0',listStyle:'disc'}}>
-                <li>Drove <span className="highlight">feature development</span> for D2C brands: <span className="highlight">Wrogn, Veirdo, Juneberry</span></li>
-                <li>Boosted <span className="highlight">PLP conversions by 6%</span> via topline/inline optimizations</li>
-                <li>Built <span className="highlight">quick filters</span> for Veirdo, improving navigation & discoverability</li>
-                <li>Led <span className="highlight">cart coupon</span> rollout for Wrogn, achieving <span className="highlight">16% uplift</span> in cart conversions</li>
-                <li>Presented architecture to <span className="highlight">CTO & Tech Architects</span></li>
-                <li>Added <span className="highlight">cart nudges</span> (+4% conversion), free shipping banners, dynamic pricing</li>
+                <li>Analyzed <span className="highlight">user behavior data</span> to drive feature development for D2C brands</li>
+                <li>Implemented <span className="highlight">A/B testing</span> that boosted PLP conversions by 6%</li>
+                <li>Built <span className="highlight">data pipelines</span> for cart analytics and conversion tracking</li>
+                <li>Created <span className="highlight">dashboard visualizations</span> for business stakeholders</li>
+                <li>Presented <span className="highlight">data insights</span> to CTO & Tech Architects</li>
+                <li>Optimized <span className="highlight">conversion funnels</span> using data-driven approaches</li>
               </ul>
             </div>
           </div>
@@ -53,30 +49,35 @@ export default function TusharAPMPortfolio() {
             <div className="cute-link-desc" style={{whiteSpace:'normal'}}>
               <div><span className="highlight">Jan 2024 – Jun 2024 · Remote</span></div>
               <ul style={{margin:'0.7em 0 0 1em',padding:'0',listStyle:'disc'}}>
-                <li>Revamped company website, improving <span className="highlight">UX, SEO, and performance</span></li>
-                <li>Used <span className="highlight">Elementor, Yoast SEO, WPForms, WooCommerce, WP Rocket</span></li>
-                <li>Ensured <span className="highlight">mobile responsiveness</span> and <span className="highlight">fast loading</span></li>
-                <li>Collaborated with <span className="highlight">CEO & directors</span> for business-aligned features</li>
-                <li>Drove <span className="highlight">traffic & engagement</span> through iterative updates</li>
+                <li>Analyzed <span className="highlight">website analytics</span> to improve UX, SEO, and performance</li>
+                <li>Implemented <span className="highlight">data tracking</span> using Google Analytics and heatmaps</li>
+                <li>Created <span className="highlight">performance reports</span> for mobile responsiveness and loading speed</li>
+                <li>Collaborated with <span className="highlight">stakeholders</span> to align data insights with business goals</li>
+                <li>Drove <span className="highlight">traffic & engagement</span> through data-driven optimizations</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* PRDs Section */}
+      {/* Projects Section */}
       <section className="cute-card">
-        <h2 className="cute-section-title">📝 Product Requirement Docs (PRDs)</h2>
+        <h2 className="cute-section-title">📊 Data Analytics Projects</h2>
         <div className="cute-links">
-          <a href="/Group_Account _Prd.pdf" className="cute-link-card" download>
-            <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4c3.svg" alt="PRD 2" target="_blank" className="cute-link-icon" />
-            <div className="cute-link-title">Group/Blanket Account System for Shared Living Purchases</div>
-            <div className="cute-link-desc">Product Requirement Doc (DOCX) for a system enabling group or blanket accounts to manage shared purchases in co-living or roommate scenarios.</div>
+          <a href="https://github.com/tush47/SkyVision-Weather-Classifier" className="cute-link-card" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4c3.svg" alt="Weather Classifier" className="cute-link-icon" />
+            <div className="cute-link-title">Sky Vision Weather Classifier</div>
+            <div className="cute-link-desc">Built a CNN model using TensorFlow and OpenCV to classify 11 weather conditions with 97% accuracy, implementing data preprocessing and model optimization.</div>
           </a>
-          <a href="/PRD_Marketplace_Podcast.pdf" className="cute-link-card" target="_blank" download>
-            <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f399.svg" alt="Podcast Marketplace" className="cute-link-icon" />
-            <div className="cute-link-title">Marketplace Platform for Podcast Editors & Creators</div>
-            <div className="cute-link-desc">Product Requirement Doc (DOCX) for a platform connecting podcast editors and creators.</div>
+          <a href="https://github.com/tush47/WhatsApp-Chat-Analyzer" className="cute-link-card" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f399.svg" alt="WhatsApp Analysis" className="cute-link-icon" />
+            <div className="cute-link-title">WhatsApp Chat Analysis App</div>
+            <div className="cute-link-desc">Developed an interactive Streamlit app for analyzing WhatsApp chat data with text preprocessing, visualization, and modular data pipelines.</div>
+          </a>
+          <a href="https://github.com/tush47/Student-marks-predictor" className="cute-link-card" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4d1.svg" alt="Student Predictor" className="cute-link-icon" />
+            <div className="cute-link-title">Student Marks Predictor</div>
+            <div className="cute-link-desc">Developed predictive models using Linear Regression, KNN, and Decision Trees achieving 92% R² score with comprehensive data pipeline.</div>
           </a>
         </div>
       </section>
@@ -105,8 +106,7 @@ export default function TusharAPMPortfolio() {
 
       {/* Footer */}
       <footer className="cute-footer">
-        {/* <img src="/footer_blob.svg" alt="footer blob" className="footer-blob" /> */}
-        <div>Made with <span role="img" aria-label="heart">💙</span> by Tushar Sohal · APM Aspirant · 2025</div>
+        <div>Made with <span role="img" aria-label="heart">💙</span> by Tushar Sohal · Data Analyst Aspirant · 2025</div>
       </footer>
     </main>
   );

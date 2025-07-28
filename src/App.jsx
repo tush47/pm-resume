@@ -1,12 +1,12 @@
 import reactLogo from './assets/react.svg'
 import './App.css'
-import TusharAPMPortfolio from './TusharAPMPortfolio'
+import TusharDataAnalystPortfolio from './TusharAPMPortfolio'
 
 function App() {
 
   return (
     <>
-  <TusharAPMPortfolio/>
+  <TusharDataAnalystPortfolio/>
     </>
   )
 }
